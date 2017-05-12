@@ -131,7 +131,7 @@ class ViewController: UIViewController {
         view.layer.sublayerTransform.m34 = 1 / 500.0
         
         let rotationAnimation = infiniteRotatingAnimation()
-        emitterLayer.add(rotationAnimation, forKey: "lkasjdflkajs")
+        emitterLayer.add(rotationAnimation, forKey:"<AnyKeyCanDo>")
     }
     
     func infiniteRotatingAnimation() -> CABasicAnimation {
